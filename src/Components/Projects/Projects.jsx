@@ -11,13 +11,64 @@ const Projects = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
-              src="/project1.png"
+              src="/bit.png"
+              alt="Project 1"
+              className="w-full h-64 object-cover"
+            />
+            <div className="p-6">
+              <h3 className="text-2xl font-semibold text-gray-800 mb-4">Bitharvest Mining</h3>
+              <p className="text-gray-600 mb-4">decentralized miming device fot bitcoin and BTH miming</p>
+              <a
+                href="https://bitharvest.io/"
+                className="text-purple-600 hover:text-indigo-700 font-semibold"
+              >
+                Case Study &rarr;
+              </a>
+            </div>
+          </div>
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
+              src="/doge.png"
+              alt="Project 2"
+              className="w-full h-64 object-cover"
+            />
+            <div className="p-6">
+              <h3 className="text-2xl font-semibold text-gray-800 mb-4">Dogecoin Website</h3>
+              <p className="text-gray-600 mb-4">dogecoin is a big MEME coin</p>
+              <a
+                href="https://dogecoin.com/"
+                className="text-purple-600 hover:text-indigo-700 font-semibold"
+              >
+                Case Study &rarr;
+              </a>
+            </div>
+          </div>
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
+              src="/mrme.png"
+              alt="Project 3"
+              className="w-full h-64 object-cover"
+            />
+            <div className="p-6">
+              <h3 className="text-2xl font-semibold text-gray-800 mb-4">Lee coin</h3>
+              <p className="text-gray-600 mb-4">Lee coin is meme coint, its list in some good wallet and its verry populer coin</p>
+              <a
+                href="https://www.coingecko.com/en/coins/love-earn-enjoy"
+                className="text-purple-600 hover:text-indigo-700 font-semibold"
+              >
+                Case Study &rarr;
+              </a>
+            </div>
+          </div>
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
+              src="/prot1.png"
               alt="Project 1"
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
               <h3 className="text-2xl font-semibold text-gray-800 mb-4">Protfolio Website</h3>
-              <p className="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className="text-gray-600 mb-4">its my protfolio using react.js anad tailwind css </p>
               <a
                 href="#"
                 className="text-purple-600 hover:text-indigo-700 font-semibold"
@@ -28,15 +79,15 @@ const Projects = () => {
           </div>
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
-              src="/project1.png"
-              alt="Project 2"
+              src="/proects2.png"
+              alt="Project 1"
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-2xl font-semibold text-gray-800 mb-4">Ecommerce Website</h3>
-              <p className="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3 className="text-2xl font-semibold text-gray-800 mb-4">Agency Website</h3>
+              <p className="text-gray-600 mb-4">affix.digital is an web development and digital marketing service company</p>
               <a
-                href="#"
+                href="https://affix.digital/"
                 className="text-purple-600 hover:text-indigo-700 font-semibold"
               >
                 Case Study &rarr;
@@ -45,15 +96,15 @@ const Projects = () => {
           </div>
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
-              src="/project1.png"
-              alt="Project 3"
+              src="/projects3.png"
+              alt="Project 1"
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-2xl font-semibold text-gray-800 mb-4">Mem Coin Website</h3>
-              <p className="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3 className="text-2xl font-semibold text-gray-800 mb-4">Moveis Website</h3>
+              <p className="text-gray-600 mb-4">moveis download website, have all moveis to watch .</p>
               <a
-                href="#"
+                href="https://dinkomovies.com/"
                 className="text-purple-600 hover:text-indigo-700 font-semibold"
               >
                 Case Study &rarr;
@@ -79,6 +130,7 @@ const Projects = () => {
             Let’s work together &rarr;
           </a>
         </div>
+        
       </div>
     </div>
   );

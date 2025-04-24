@@ -11,7 +11,7 @@ const HeroSection = () => {
             <span className="text-purple-600">Roxy Bhuiyan</span>
           </h1>
           <p className="text-lg text-black-300 mb-8">
-            I'm a blockchain developer specializing in smart contract development, decentralized application (dApp) architecture, and Web3 integrations. I help startups and enterprises bring their ideas to life on the blockchain.
+          As a experience Full Stack Web and Blockchain Developer, I specialize in designing, developing, and deploying web applications and blockchain solutions. My expertise spans across both front-end and back-end development, leveraging technologies such as React.js,Next.js Node.js, MongoDB, Vercel, AWS and Solidity to create seamless, efficient, and secure decentralized applications.
           </p>
 
           <a
@@ -24,7 +24,7 @@ const HeroSection = () => {
           {/* Experience */}
           <div className="flex flex-col sm:flex-row gap-6">
             
-            <div className="mt-8 grid grid-cols-3 gap-4 text-gray-600">
+            <div className="mt-8 grid grid-cols-3 gap-1 text-gray-600">
             <div className="bg-purple-100 p-4 rounded-lg text-center">
               <p className="text-2xl font-semibold text-indigo-600">1 Y.</p>
               <p>Experience</p>

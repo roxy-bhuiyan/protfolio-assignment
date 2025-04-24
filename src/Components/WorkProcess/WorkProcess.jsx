@@ -1,46 +1,46 @@
-import React from "react";
+import { Lightbulb, Search, PencilRuler, Rocket } from 'lucide-react';
 
 const WorkProcess = () => {
   return (
-    <div class="work-process py-12 bg-gray-100">
-  <div class="container mx-auto px-6 lg:px-12 text-center">
-    <h2 class="text-4xl font-semibold text-gray-800 mb-8">Work Process</h2>
-    <p class="text-lg text-gray-600 mb-12">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet orci.
-    </p>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-      <div class="work-step bg-white shadow-xl rounded-lg p-6 text-center">
-        <div class="icon bg-purple-100 text-purple-600 p-4 rounded-full mb-4">
-          <i class="fas fa-calendar-check text-2xl"></i>
-        </div>
-        <h3 class="text-xl font-semibold text-gray-800 mb-2">1. Research</h3>
-        <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu.</p>
+    <section>
+      <div className="grid grid-cols-1  md:grid-cols-2 gap-8 items-center p-8 bg-gray-50 py-16 px-6 md:px-12">
+      {/* Left Side Text */}
+      <div>
+        <h2 className="text-3xl font-bold mb-4">Our Work Process</h2>
+        <p className="text-gray-700 text-lg leading-relaxed">
+          We follow a streamlined and efficient work process to deliver exceptional results. Our strategy ensures quality, clarity, creativity, and timely execution to bring your ideas to life and help your brand grow with precision and impact.
+        </p>
       </div>
-      <div class="work-step bg-white shadow-xl rounded-lg p-6 text-center">
-        <div class="icon bg-purple-100 text-purple-600 p-4 rounded-full mb-4">
-          <i class="fas fa-chart-line text-2xl"></i>
+
+      {/* Right Side - 4 Cards in  grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        {/* Card 1 */}
+        <div className="bg-white shadow-md rounded-2xl p-6 flex flex-col items-center text-center hover:shadow-xl transition">
+          <Lightbulb className="w-10 h-10 text-indigo-600 mb-4" />
+          <h3 className="font-semibold text-xl mb-2">Research</h3>
+          <p className="text-gray-600">We dive deep to understand your goals, audience, and market to lay a strong foundation.</p>
         </div>
-        <h3 class="text-xl font-semibold text-gray-800 mb-2">2. Analyze</h3>
-        <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu.</p>
-      </div>
-      <div class="work-step bg-white shadow-xl rounded-lg p-6 text-center">
-        <div class="icon bg-purple-100 text-purple-600 p-4 rounded-full mb-4">
-          <i class="fas fa-pencil-alt text-2xl"></i>
+        {/* Card 2 */}
+        <div className="bg-white shadow-md rounded-2xl p-6 flex flex-col items-center text-center hover:shadow-xl transition">
+          <Search className="w-10 h-10 text-blue-600 mb-4" />
+          <h3 className="font-semibold text-xl mb-2">Analyze</h3>
+          <p className="text-gray-600">We assess all insights to plan the best approach for achieving your desired outcomes.</p>
         </div>
-        <h3 class="text-xl font-semibold text-gray-800 mb-2">3. Design</h3>
-        <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu.</p>
-      </div>
-      <div class="work-step bg-white shadow-xl rounded-lg p-6 text-center">
-        <div class="icon bg-purple-100 text-purple-600 p-4 rounded-full mb-4">
-          <i class="fas fa-rocket text-2xl"></i>
+        {/* Card 3 */}
+        <div className="bg-white shadow-md rounded-2xl p-6 flex flex-col items-center text-center hover:shadow-xl transition">
+          <PencilRuler className="w-10 h-10 text-green-600 mb-4" />
+          <h3 className="font-semibold text-xl mb-2">Design</h3>
+          <p className="text-gray-600">We creatively design engaging, user-friendly solutions tailored to your specific needs.</p>
         </div>
-        <h3 class="text-xl font-semibold text-gray-800 mb-2">4. Launch</h3>
-        <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu.</p>
+        {/* Card 4 */}
+        <div className="bg-white shadow-md rounded-2xl p-6 flex flex-col items-center text-center hover:shadow-xl transition">
+          <Rocket className="w-10 h-10 text-red-600 mb-4" />
+          <h3 className="font-semibold text-xl mb-2">Launch</h3>
+          <p className="text-gray-600">We execute the final delivery with precision, ensuring smooth deployment and impact.</p>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
+    </section>
   );
 };
 
