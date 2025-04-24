@@ -1,9 +1,11 @@
 import React from 'react';
 
+
+
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-sm w-full fixed">
-      <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+    <nav className="bg-white shadow-sm w-full fixed lg:px-16 ">
+      <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between ">
         
         {/* Left: Logo and Name */}
         <div className="flex items-center space-x-3">

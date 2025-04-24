@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-900 text-white py-8">
+    <div className="bg-gray-900 text-white py-8 lg:px-14">
       <div className="container mx-auto px-6 flex items-center justify-between">
         {/* Left Section (Logo and Navigation Links) */}
         <div className="flex items-center space-x-4">
@@ -14,10 +14,10 @@ const Footer = () => {
 
         {/* Right Section (Navigation Links and Copyright) */}
         <div className="flex space-x-6">
-          <a href="#home" className="text-lg hover:text-purple-600 transition duration-300">
+          <a href="/" className="text-lg hover:text-purple-600 transition duration-300">
             Home
           </a>
-          <a href="#about" className="text-lg hover:text-purple-600 transition duration-300">
+          <a href="/Components/about" className="text-lg hover:text-purple-600 transition duration-300">
             About
           </a>
           <a href="#services" className="text-lg hover:text-purple-600 transition duration-300">
