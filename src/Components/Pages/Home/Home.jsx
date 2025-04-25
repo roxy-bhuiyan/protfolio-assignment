@@ -2,11 +2,11 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="bg-white text-black py-16 px-6 md:px-12 lg:px-20  ">
+    <section className="bg-white  text-black py-16 px-6 md:px-12 lg:px-20  ">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center  ">
         {/* Left Content */}
         <div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight ">
             Hello, Iam<br />
             <span className="text-purple-600">Roxy Bhuiyan</span>
           </h1>

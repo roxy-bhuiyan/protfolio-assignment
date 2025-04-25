@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="bg-gray-50 py-12">
+    <div id="contact" className="bg-gray-50 py-12">
       <div className="container mx-auto px-6 lg:px-12 text-center lg:text-left">
         <div className="lg:flex lg:justify-between items-center">
           {/* Left Section */}

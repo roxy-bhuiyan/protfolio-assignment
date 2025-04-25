@@ -2,7 +2,7 @@ import { Lightbulb, Search, PencilRuler, Rocket } from 'lucide-react';
 
 const WorkProcess = () => {
   return (
-    <section className=''>
+    <section id='WorkProcess'>
       <div className="grid grid-cols-1  md:grid-cols-2 gap-8 items-center p-8 bg-gray-50 py-16 px-6 md:px-12 lg:px-20 ">
       {/* Left Side Text */}
       <div>
