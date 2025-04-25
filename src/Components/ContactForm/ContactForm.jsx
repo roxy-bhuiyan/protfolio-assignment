@@ -70,24 +70,8 @@ const ContactForm = () => {
                   placeholder="Email*"
                   className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"
                 />
-                <input
-                  type="text"
-                  name="location"
-                  placeholder="Location"
-                  className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"
-                />
-                <input
-                  type="text"
-                  name="budget"
-                  placeholder="Budget*"
-                  className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"
-                />
-                <input
-                  type="text"
-                  name="subject"
-                  placeholder="Subject*"
-                  className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"
-                />
+               
+              
                 <textarea
                   name="message"
                   rows="4"
